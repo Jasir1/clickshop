@@ -1,0 +1,505 @@
+@font-face {
+    font-family: "QuickSand";
+    src: url("fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "play";
+    src: url("fonts/play.regular.ttf");
+}
+
+@font-face {
+    font-family: "Stranger";
+    src: url("fonts/Stranger-back-in-the-Night.ttf");
+}
+
+.title1 {
+    font-family: "Stranger";
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.title2 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+* {
+    font-family: "play", "sans-serif";
+    font-size: 14px;
+}
+
+.box1 {
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 15px 25px;
+    border-radius: 10px;
+}
+
+.logo {
+    height: 100px;
+    background-image: url("resources/logo new.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn-orange {
+    border-color: rgb(255, 157, 0);
+    border-width: 2px;
+    color: black;
+    border-radius: 5px;
+    height: 40px;
+    font-family: "play", sans-serif;
+}
+
+.btn-orange:hover {
+    color: White;
+    background-color: rgb(255, 157, 0);
+}
+
+.btn-orange-fill {
+    border-color: rgb(255, 157, 0);
+    background-color: rgb(255, 157, 0);
+    border-width: 2px;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    font-family: "play", sans-serif;
+}
+
+.btn-orange-fill:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.inputbox {
+    width: 90%;
+    height: 40px;
+    background: transparent;
+    color: rgb(50, 48, 48);
+    border: none;
+    border-bottom: 1px solid rgb(81, 79, 79);
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.inputbox1 {
+    width: 90%;
+    height: 40px;
+    background: transparent;
+    color: rgb(218, 216, 216);
+    border: none;
+    border-bottom: 1px solid rgb(250, 250, 250);
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.resetWindow {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.resetWindow2 {
+    color: rgb(97, 88, 87);
+}
+
+.user_icon {
+    width: 24px;
+    display: inline-block;
+}
+
+.cart_icon {
+    width: 24px;
+}
+
+.hr1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(121, 136, 137);
+}
+
+.home_logo {
+    height: 8vh;
+    background-image: url("resources/logo1.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.search_icon {
+    height: 2.5vh;
+}
+
+.bg_image1 {
+    background-image: url("resources/new_tech_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 80vh;
+}
+
+.avatar_img {
+    height: 115px;
+    width: 115px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.image_addon {
+    border: none;
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.image_btn {
+    position: absolute;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: -25px;
+    margin-left: 80px;
+}
+
+.input_field {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+
+.my_text {
+    font-size: 14px;
+    color: black;
+    font-family: "play", sans-serif;
+}
+
+.heading {
+    font-family: "play", sans-serif;
+    text-align: center;
+}
+
+.my_heading {
+    font-size: 26px;
+    color: rgb(50, 48, 48);
+    font-family: "play", sans-serif;
+    text-align: center;
+}
+
+.my_heading_big {
+    font-size: 34px;
+}
+
+.inputbox_user {
+    width: 90%;
+    height: 40px;
+    background: transparent;
+    color: rgb(50, 48, 48);
+    border: none;
+    border-bottom: 1px solid rgb(81, 79, 79);
+    padding-top: 10px;
+    margin-top: 15px;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-family: "play", sans-serif;
+}
+
+.my_input {
+    margin-top: 15px;
+}
+
+.my_inputbox {
+    height: 40px;
+    background: transparent;
+    color: rgb(50, 48, 48);
+    border: none;
+    border-bottom: 1px solid rgb(81, 79, 79);
+    outline: none;
+    margin-top: -20px;
+}
+
+.my_input_text {
+    width: 38%;
+    color: black;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(43, 43, 43);
+    outline: none;
+    margin-top: -20px;
+}
+
+.my_inputbox_1 {
+    height: 40px;
+    background: transparent;
+    color: rgb(50, 48, 48);
+    border: none;
+    border-bottom: 1px solid rgb(81, 79, 79);
+    outline: none;
+}
+
+.my_inputbox_2 {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    color: rgb(43, 43, 43);
+    border: none;
+    border-bottom: 1px solid rgb(106, 105, 105);
+    outline: none;
+}
+
+.bg_footer {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.my_div {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.my_div1 {
+    border-radius: 12px;
+    background: linear-gradient(to top, #f5d9bc, #ecc6b3);
+    background-color: #f4d4c9;
+}
+
+.my_div2 {
+    border-radius: 12px;
+    background: linear-gradient(to top, #f6a14c, #f0ba83);
+    background-color: #f4d4c9;
+}
+
+.my_show_btn {
+    position: absolute;
+}
+
+.my_group {
+    margin-top: -33px;
+}
+
+.my_btn {
+    position: absolute;
+}
+
+.my_form_control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-bottom: 1px solid white;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.my_form_control1 {
+    display: block;
+    width: 70%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(43, 43, 43);
+    border: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-bottom: 1px solid rgb(106, 105, 105);
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.my_form_control_cost {
+    display: block;
+    width: 65%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(50, 48, 48);
+    border: none;
+    outline: none;
+    text-align: right;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-bottom: 1px solid rgb(81, 79, 79);
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.my_textarea {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    outline: none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-bottom: 1px solid white;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.my_background1 {
+    background: linear-gradient(to top, #ff7e5f, #feb47b);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image1 {
+    width: 100px;
+    background-image: url("resources/addproductimg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.book_cover_image {
+    width: 200px;
+}
+
+.hr1 {
+    height: 3px;
+}
+
+.product-image {
+    transition: all 0.3s ease-out;
+    position: relative;
+    width: 100%;
+}
+
+.product-image:hover .info {
+    transform: translateX(0);
+    transition: all 0.3s ease-out;
+    display: block;
+}
+
+.info ul li {
+    transition: 0.3s ease;
+}
+
+.info ul li label {
+    font-size: 11px;
+}
+
+.info ul li:hover {
+    transform: scale(1.1);
+}
+
+.my_card {
+    box-shadow: 1px 1px 1px 1px rgb(189, 185, 185);
+    border-radius: 10px;
+}
+
+.btn_icon {
+    width: 20px;
+}
+
+.my_banner {
+    background-image: url("resources/Banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    margin-left: -40px;
+    padding-top: 10px;
+}
+
+.cursor_no_drop {
+    cursor: no-drop;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.rank {
+    height: 50px;
+    background-image: url("resources/rank.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media (max-width:1200px) {
+    .div_one {
+        width: 100%;
+    }
+}
+
+.home_cart_img {
+    width: calc(30%);
+}
+
+.message_box,
+.chat_box {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.message_unreaded {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.message_readed {
+    background: linear-gradient(to right, #ec9c88, #f4c098);
+}
+
+.success_message {
+    width: 60px;
+    background-image: url("icons/check.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.warning_message {
+    width: 60px;
+    background-image: url("icons/warning.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
